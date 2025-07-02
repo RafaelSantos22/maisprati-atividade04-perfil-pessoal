@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Perfil</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-container container">
+        <h1>Rafael Santos</h1>
+
+        <nav class="navbar">
+          <ul>
+            <li><a href="#about">Sobre mim</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#social">Redes Sociais</a></li>
+          </ul>
+        </nav>
+
+        <div class="contact-button">
+          <a href="#contact">
+            <button>Contato</button>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="container">
+          <div class="flex">
+            <div class="about-content">
+              <h2>Desenvolvedor FullStack</h2>
+              <p class="subtitle">
+                Sou um desenvolvedor Full Stack com experiência na criação de
+                aplicações web modernas, responsivas e acessíveis. Trabalho com
+                tecnologias como HTML, CSS, JavaScript, React e Node.js para
+                desenvolver interfaces intuitivas e sistemas robustos. Meu foco
+                está em entregar soluções que unem performance, usabilidade e
+                design, sempre buscando as melhores práticas de desenvolvimento
+                e a constante evolução profissional.
+              </p>
+              <div class="contact-button">
+                <a href="#contact">
+                  <button>Entre em contato</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="about-image">
+              <img src="assets/images/perfil.jpg" alt="Foto perfil" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="container">
+          <h2 class="section-title">Minhas <span>Habilidades</span></h2>
+          <ul class="skills-list flex">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>ReactJS</li>
+            <li>NodeJS</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>TypeScript</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="container">
+          <h2 class="section-title">Meus <span>Projetos</span></h2>
+          <div class="projects">
+            <article class="project-card">
+              <h3>Buscador CEP</h3>
+              <p>Busca automática de endereço via API ao digitar um CEP.</p>
+              <a
+                href="https://buscador-cep-amber-gamma.vercel.app/"
+                target="_blank"
+                >Acessar projeto</a
+              >
+            </article>
+
+            <article class="project-card">
+              <h3>Calculadora IMC</h3>
+              <p>Calcula e exibe o IMC do usuário com base em peso e altura.</p>
+              <a
+                href="https://rafaelsantos22.github.io/calculadora-imc/"
+                target="_blank"
+                >Acessar projeto</a
+              >
+            </article>
+
+            <article class="project-card">
+              <h3>Projeto Android</h3>
+              <p>Landing page inspirada no Android, feita com HTML e CSS.</p>
+              <a
+                href="https://rafaelsantos22.github.io/projeto-android/"
+                target="_blank"
+                >Acessar projeto</a
+              >
+            </article>
+            
+              <article class="project-card">
+              <h3>Projeto Awax</h3>
+              <p>Landing page feita com HTML e CSS.</p>
+              <a
+                href="https://rafaelsantos22.github.io/projeto-awax/"
+                target="_blank"
+                >Acessar projeto</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <aside id="social">
+        <div class="container">
+          <h2 class="section-title">Minhas <span>Redes Sociais</span></h2>
+          <ul class="social-links">
+            <li>
+              <a href="https://github.com/rafaelsantos22" target="_blank">GitHub</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/rafael-santos-61798822a/" target="_blank">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/rafaxdm75" target="_blank">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <section id="contact">
+        <div class="container">
+          <h2 class="section-title">FALE <span>COMIGO</span></h2>
+
+          <form action="">
+            <input type="text" placeholder="Seu nome completo:" required />
+            <input type="text" placeholder="Seu e-mail:" required />
+            <input type="text" placeholder="Seu celular:" />
+            <textarea placeholder="Sua mensagem" required></textarea>
+            <div class="submit-button">
+              <input type="submit" value="ENVIAR" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Rafael Santos. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
